@@ -48,7 +48,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                         </div>
@@ -74,7 +74,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                             </div>
@@ -100,7 +100,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                             </div>

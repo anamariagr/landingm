@@ -1,6 +1,9 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image'
 import SlideCont from './SlideCont'
+import Itemslider1 from './Itemslider1'
+import ItemSlider2 from './ItemSlider2'
+
 
 const proprietes = {
     duration: 5000,
@@ -24,12 +27,12 @@ const Slideshow = () =>{
                     </div>
                     <div className="each-slide">
                         <div>
-                            <SlideCont/>
+                            <Itemslider1/>
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <SlideCont/>
+                        <ItemSlider2/>
                         </div>
                     </div>
                 </Slide>

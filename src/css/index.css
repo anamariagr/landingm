@@ -26,6 +26,7 @@ code {
   left: 0;
   width: 100%;
   left: 0;
+  font-weight: 600;
 }
 .imglogo{
   width: 174px;
@@ -85,7 +86,12 @@ a.contact-hover:hover {
   background-color: #73ffa9b3;
 }
 
+.img-zise-nalaui{
+  width: 85px;
+  height: 85px;
+  border-radius: 85px;
 
+}
 
 
 .btn-store{

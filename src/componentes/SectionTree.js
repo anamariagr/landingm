@@ -9,7 +9,7 @@ const SectionTree = props =>{
                    <div className="col-md-5">
                        <div className="row">
                             
-                                        <div className="col-md-12 pb-2">
+                                        <div className="col-md-12 pb-5">
                                             <p className="subtitle-three">
                                             ¿ Colaboras con emprendedores ?
                                                 </p>
@@ -42,7 +42,7 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                                 </p>
                                             </div>
                                         <div className="col-md-12">
-                                        <button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button>
+                                        <a target="_blank" href="https://meetwork.cl/login"><button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button></a>
                                         </div>
                                         <div className="col-md-12 p-3">
                                                 <p >

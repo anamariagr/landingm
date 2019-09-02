@@ -28,8 +28,8 @@ const SectionFrour = prop =>{
                                         <p>
                                         Es normal que un establecimiento gastronómico tenga muy claro cuantas comandas vende al día, pero lo que no saben es quienes se las vendieron, nuestra plataforma se basa en un algoritmo de gestión de reservas , lo que nos permite entregar información de valor y ayudar a potencializar sus estrategias comerciales, aparte de convertirlo en un espacio de trabajo colaborativo.                                            </p>
                                         </div>
-                                        <div className="col-md-12 text-right pt-5 ">
-                                            <button type="button"  className="btn btn-download shadow   bg-white"> <a href="https://meetwork.space" > Activar mi establecimiento</a></button>
+                                        <div className="col-md-12 text-right pt-5 "> 
+                                            <a target="_blank" href="https://meetwork.space"><button type="button"  className="btn btn-download shadow   bg-white">Activar mi establecimiento</button> </a>
                                         </div>
                                     
                                     

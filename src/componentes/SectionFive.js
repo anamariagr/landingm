@@ -35,8 +35,8 @@ const SectionFive = props =>{
                                         </div>
                                        
                                         <div className="col-md-12 pt-5 text-center ">
-                                            <button type="button"  className="btn btn-download shadow   bg-white"> <a href="https://meetwork.space" > Activar mi establecimiento</a></button>
-                                         </div>
+                                        <a target="_blank" href="https://meetwork.space"><button type="button"  className="btn btn-download shadow   bg-white">Activar mi establecimiento</button> </a>
+                                            </div>
                                     
                                     
                                   

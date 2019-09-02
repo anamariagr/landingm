@@ -31,15 +31,15 @@ const SectionOne = props =>{
                                             </p>
                                         </div>
                                         <div className="col-md-12">
-                                        <button type="button" class="btn btn-download shadow   bg-white ">descarga</button>
+                                       <a target="_blank" href="https://play.google.com/store/apps/details?id=meetwork.app&hl=es"><button type="button" class="btn btn-download shadow   bg-white ">Descarga</button></a> 
                                         </div>
                                         <div className="col-md-12 p-3 mt-3">
                                             <div className="row row ml-lg-5">
                                                     <div className="col-5 col-lg-3 ml-lg-5 pr-1">
-                                                      <a href="https://apps.apple.com/ar/app/meetwork-app/id1462502158" ><img alt="icon-1" className="btn-app" src="./img/Logo_appstore.png"/> </a>  
+                                                      <a target="_blank" href="https://apps.apple.com/ar/app/meetwork-app/id1462502158" ><img alt="icon-1" className="btn-app" src="./img/Logo_appstore.png"/> </a>  
                                                    </div>  
                                                     <div className="col pl-1"> 
-                                                        <img alt="logo-3"  className="btn-store"  src="./img/logo-android.png"/>
+                                                       <a target="_blank" href="https://play.google.com/store/apps/details?id=meetwork.app&hl=es"><img alt="logo-3"  className="btn-store"  src="./img/logo-android.png"/></a> 
                                                     </div>
                                             </div>
                                         </div>
