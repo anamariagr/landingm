@@ -11,7 +11,7 @@ const SectionSeven = porps =>{
                          <div className="col-md-12 text-center pb-4">
                          <p className="subtitle"> Selecciona la Memebresía que más se ajuste a tu nesesidad</p>
                          </div>
-                         <div className="col-md-12 text-center">
+                          <div className="col-md-12 text-center d-none">
                                 <div className=" row caja ">
                                       <div className="col-md-6 pr-0">
                                              <div className="border-green text-light">
@@ -48,7 +48,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                         </div>
@@ -74,7 +74,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                             </div>
@@ -100,7 +100,7 @@ const SectionSeven = porps =>{
 
                                                         </div>
                                                             <div className="col-12">
-                                                            <a target="_blank" href="https://meetwork.cl/login"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
+                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
                                                             </div>
                                                 </div>
                                             </div>
