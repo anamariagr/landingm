@@ -4,6 +4,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color:#3D5C9A;
+  
+}
+p{
+  font-size: 13px;
 }
 a{
   color: white;
@@ -17,7 +21,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.circle:hover {
+  background-color: #ffffffd4;
+}
+i.fa:hover {
+  color: #34d977;
+}
+.background-nav{
+  background-color: #38456E;
+}
+.btn-outline-light:hover {
+  color: #1ecc64;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  font-weight: 600;
+}
+.text-light {
+  color: #f8f9fa!important;
+  font-weight: 700;
+}
 .background-hero{
   background-image: url('/img/seccitionOne.jpg') ;
   height: 739px;
@@ -44,6 +66,8 @@ a.nav-link{
   font-size: 27px;
     font-weight: 600;
     color: #3D5C9A;
+    padding-top: 20px;
+    line-height:35px;
 }
 .text-hero {
   padding-top: 110px;
@@ -52,7 +76,7 @@ a.nav-link{
 .btn-radius {
   border-radius: 21px;
   border: 2px solid; 
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 33px;
   padding-right: 33px;
   padding-top: 10px;
@@ -82,14 +106,13 @@ a.nav-hover:hover {
   padding-bottom: 0;
 }
 
-a.contact-hover:hover {
-  background-color: #73ffa9b3;
-}
+
 
 .img-zise-nalaui{
   width: 85px;
   height: 85px;
   border-radius: 85px;
+  margin: -1px;
 
 }
 
@@ -127,10 +150,12 @@ a.contact-hover:hover {
 }
 .circle-card{
   background-color: #dfffed;
-  height: 50px;
-  width: 50px;
-  border-radius: 30px;
-  margin: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    margin: 0;
+    margin-top: -3px;
+    margin-bottom: 10px;
 }
 .card-shadow {
   box-shadow: 1px 20px 36px 2px rgba(49, 205, 126, 0.12);
@@ -170,7 +195,8 @@ a.contact-hover:hover {
     
 }
 .size-logo{
-  width: 110px;
+  width: 100px;
+  padding: 5px;
 
 }
 .line-five{
@@ -181,13 +207,14 @@ a.contact-hover:hover {
   margin-bottom: 25px;
 }
 .carde {
-  width: 265px;
-  height: 280px;
-  -webkit-box-shadow: 9px 20px 36px 9px rgba(63, 132, 95, 0.97);
-  -moz-box-shadow: 9px 20px 36px 9px rgba(178,240,207,1);
   box-shadow: 9px 20px 36px 9px rgba(178, 240, 207, 0.26);
   border-radius: 19px;
   background-color: white;
+  margin-left: 5px;
+  font-size: 13px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
 }
 .carde:hover {
   border-color: white;
@@ -245,18 +272,58 @@ a.contact-hover:hover {
   background-image: url('/img/coillas.jpg');
   background-repeat: no-repeat;
 }
+.border-botom{
+  border-bottom: solid 2px #45c160;
+  width: 196px;
+  padding-bottom: 5px;
 
+}
+.btn-footer{
+  box-shadow: 1px 8px 46px 8px rgba(136, 255, 189, 0.44);
+    width: 205px;
+    padding: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 200px;
+}
+.letter-footer{
+  color: white;
+  font: 14px;
+}
+.font-letter{
+  font-size: 13px;
+}
+.btn:hover {
+  color: #d8e2d7;
+  text-decoration: none;
+}
+.btn-coworking{
+  margin-left: 0;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    width: 217px;
+    background-color: #2ED887;
+    color: white;
+    border-radius: 50px;
+}
 
 
 @media only screen and (max-width: 2000px) {
-  a.nav-contact {
-    background-color: #ece6e699;
-    border-radius: 20px;
+
+  
+  .img-footer{
+    background-image: url('/img/img-footer.png');
+    height: 240px;
+    width: 453px;
+    z-index: 2;
+  
+    background-repeat: no-repeat;
   }
+  
   p.subtitle-three {
-    font-size: 45px;
+    font-size: 37px;
     color: #3D5C9A;
-    line-height: 49px;
+    line-height: 45px;
     font-weight: 600;
   }
   .background-section-six{
@@ -276,6 +343,7 @@ a.contact-hover:hover {
     background-image: url('/img/section_4.png');
     background-repeat: no-repeat;
     height: 1015px;
+    margin-bottom: 145px;
   }
   .backgroundTwo{
     background-image: url('/img/backgroundTwo.jpg');
@@ -283,8 +351,7 @@ a.contact-hover:hover {
       width: 100%;
       background-repeat: no-repeat;
       left: -7px;
-      margin-top: 100px;
-      margin-bottom: 100px;
+     margin-bottom: -15px;
     
   }
   .backgroundEight{
@@ -302,12 +369,17 @@ a.contact-hover:hover {
     font-size: 12px;
     
   }
+  .letter-color-Three{
+    color: #38456E;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+  }
   .ground-float-one{
     background-image: url('/img/5.png');
     height: 100px;
       width: 100%;
       left: 700px;
-      top: 50px;
+      top: -125px;
       z-index: -1;
   }
   .colorBlueDark{
@@ -330,6 +402,7 @@ a.contact-hover:hover {
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 204px;
   }
 
 
@@ -348,7 +421,7 @@ a.contact-hover:hover {
     z-index: 1;
     margin-bottom: 0px;
   margin-top: 0px; 
-  line-height: 10px;
+  line-height: 14px;
   padding-top: 30px;
 
   
@@ -365,7 +438,7 @@ a.contact-hover:hover {
     margin-top: 30px;
   padding: 26px;
   font-size: 10px;
-  line-height: 10px;
+  line-height: 17px;
   box-shadow: 1px 5px 34px 12px rgba(54, 215, 138, 0.27);
 }
 .card-green.card-white:hover {
@@ -380,7 +453,6 @@ a.contact-hover:hover {
 }
 .fotter{
   background-image: url('/img/footer.png');
-  height: 600px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -410,12 +482,237 @@ a.contact-hover:hover {
   box-shadow: 1px 5px 34px 12px rgba(54, 215, 138, 0.27);
 
 }
+
+.space-li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.margin-l{
+  margin-left: 260px;
+
+}
+.space-nav{
+  padding: 27px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.font-padding{
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.border-bt{
+  background-color: #31cf82;
+  height: 2px;
+  width: 600px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 85px;
+}
+
+.img-selectoritems{
+  width: 250px;
+  padding-bottom: 20px;
+  padding-right: 0;
+  cursor: pointer;
+  padding-top: 0;
+  padding-left: 0;
+  padding-top: 20px;
+
+
+}
+.pad-btm{
+  padding-bottom: 180px;
+  padding-top: 115px;
+}
+
+.subtitle-card{
+  border-bottom: 2px solid #2ed887;
+  width: 150px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+.text-margin{
+  padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-left: -5px; 
+}
+.round {
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.top-p{
+  position: relative;
+    top: 18px;
+}
+.a-color{
+  color:#3D5C9A;
+  text-decoration: underline;
+  font-size: 14px;
+
+}
+.ground-float-two {
+  background-image: url(/img/5.png);
+  height: 110px;
+  width: 195px;
+  left: -68px;
+  top: 160px;
+  z-index: 6;
+  position: absolute;
+}
+
+
+.img-section-create{
+  width: 450px;
+    height: 575px;
+    margin-left: 35px;
+}
+.subtitle-create{
+  font-size: 37px;
+  color: #3D5C9A;
+  line-height: 49px;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+
+} 
+.section-create{
+  padding-bottom: 45px;
+}
+.background-cowork {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.section-cowork{
+  height: 850px;
+  padding-top: 100px;
+}
+.display-on-mobile{
+  display: none;
+}
 }
 
 
 
 
 @media only screen and (max-width: 600px) {
+  .img-selectoritems {
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+  .section-four-img{
+    width: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .background-cowork-mobile{
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 30px;
+    position: relative;
+    left: 30px;
+  }
+  .img-section-create-mobile {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+}
+.img-section-create {
+ display: none;
+}
+.section-cowork {
+  height: 1000px;
+  padding-top: 0;
+}
+  
+  .pad-btm {
+    padding-bottom: 180px;
+    padding-top: 0; 
+} 
+
+.section-create {
+  padding-bottom: 45px;
+  padding-top: 85px;
+  padding: 25px;
+}
+  .img-section-create {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+} 
+  .ground-float-two {
+    background-image: url(/img/5.png);
+    height: 111px;
+    width: 155px;
+    left: -68px;
+    top: 84px;
+    z-index: -6;
+    position: absolute;
+}
+
+  .space-card{
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 5px;
+    padding-bottom: 45px;
+    padding-top: 10px;
+  }
+  .pad-btm {
+    padding-bottom: 0;
+}
+  .border-bt {
+    width: 230px;
+  }
+
+  
+  .margin-l {
+    margin-left: 0;
+}
+  .space-nav {
+    padding: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 0;
+}
+  .font-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .letter-color-Three{
+    color: #38456E;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .img-footer{
+    background-image: url('/img/img-footer.png');
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin-top: 43px;
+    width: 100%;
+    background-size: 100%;
+  }
+  .color{
+    background-color: #2d374c;
+    margin-left: -30px;
+    padding-left: 35px;
+    margin-right: -30px;
+  }
+  .contact-hover{
+    display: none;
+  }
   
   .card-white{
      margin-top: 0px;
@@ -430,6 +727,8 @@ a.contact-hover:hover {
   }
   .background-section-five{
     background-image: none;
+    border-top: 2px solid #31c279;
+    margin: auto;
  
   }
   
@@ -438,26 +737,26 @@ a.contact-hover:hover {
 }
   .background-section-four{ 
     background-image: none;
-    height: 730px;
+    height: 800px;
   }
 
-  a.nav-contact {
-    background-color: #ece6e699;
-    border-radius: 20px;
-    width: 90px;
-  }
+  
   .btn-download {
-    width: 250px;
+    width: 223px;
     margin-left: 0;
+    padding: 10px;
+    margin-bottom: -25px;
+    margin-top: 0;
       
   }
   .btn-radius {
     padding-right: 10px;
     padding-left: 10px;
+    width: 260px;
 }
 .backgroundTwo {
-  background-image: url(/img/backgroundTwo.jpg);
-  height: 1530px;
+  background-image: url('/img/backgroundTwo.jpg');
+  height: 1350px;
   width: 100%;
   background-repeat: no-repeat;
   left: -7px;
@@ -471,7 +770,7 @@ a.contact-hover:hover {
 }
 .section-two {
   background-image: none;
-  height: 600px;
+  height: 700px;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -485,10 +784,12 @@ a.contact-hover:hover {
 }
 .background-sectionThree{
   background-image: none;
-  height: 990px;
+    height: 1200px;
 }
 p.subtitle-three {
   font-size: 30px;
+  line-height: 35px;
+  inline-size: auto;
   
 }
 .carouel-center {
