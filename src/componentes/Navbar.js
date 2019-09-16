@@ -5,36 +5,35 @@ const Navbar = props =>{
     return(
       
     
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-light space-nav">
         <a className="navbar-brand" target="_blank" href=" # ">
         <img className="imglogo" alt="icon" src="./img/logo1.png"/> 
         </a>
+       
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span >
           <i className="fa fa-bars"></i>
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav  ml-md-auto ">
-          <li className="nav-item active">
+          <ul className="navbar-nav margin-l">
+          <li className="nav-item  space-li active">
             
-                <a target="_blank" className="nav-link nav-hover" href="https://meetwork.co/login">Home <span class="sr-only">(current)</span></a>
+                <a rel="noopener noreferrer" target="_blank" className="nav-link nav-hover"  href="https://meetwork.co/login">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item"> 
-                <a target="_blank" class="nav-link nav-hover" href="#downdload ">Registrate</a>
+            <li className="nav-item  space-li"> 
+                <a target="_blank" class="nav-link nav-hover" href="#downdload ">Hotdesk Free</a>
             </li>
-            <li className="nav-item">
-                <a  target="_blank" className="nav-link nav-hover" href="https://meetwork.space/">Registra tu espacio</a> 
+            <li className="nav-item  space-li">
+                <a rel="noopener noreferrer" target="_blank" className="nav-link nav-hover" href="https://meetwork.space/">Crea tu comunidad</a> 
             </li>
-            <li className="nav-item">
-                <a   target="_blank" className="nav-link nav-hover" href="#comuniti ">Comunidad</a>
+            <li className="nav-item  space-li">
+                <a   target="_blank" className="nav-link nav-hover" href="#comuniti ">Eres un coworking</a>
             </li>
-            <li className="nav-item">
-                <a target="_blank" className="nav-link nav-hover" href="#prices">Precios</a>
+            <li className="nav-item  space-li">
+                <a target="_blank" className="nav-link nav-hover " href="#prices">¿Ayudas a emprendedores?</a>
             </li>
-            <li className="nav-item">
-                <a target="_blank" className="nav-link nav-contact contact-hover" href=" # ">Contactanos</a>
-            </li>
+            
           </ul>
         </div>
       </nav>
