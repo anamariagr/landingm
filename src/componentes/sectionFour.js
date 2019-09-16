@@ -5,7 +5,7 @@ const SectionFrour = prop =>{
     return(
         <div className="container">
         <div className="row text-right ">
-                <div className="col-md-5 flex-row ml-md-auto  d-md-flex mt-5 pt-5">
+                <div className="col-md-5 flex-row ml-md-auto  d-md-flex mt-lg-5 pt-lg-5">
                 <div className="row">
                         <div className="col-md-12">
                             <div className="row letter-color pt-0">
@@ -28,8 +28,8 @@ const SectionFrour = prop =>{
                                         <p>
                                         Es normal que un establecimiento gastronómico tenga muy claro cuantas comandas vende al día, pero lo que no saben es quienes se las vendieron, nuestra plataforma se basa en un algoritmo de gestión de reservas , lo que nos permite entregar información de valor y ayudar a potencializar sus estrategias comerciales, aparte de convertirlo en un espacio de trabajo colaborativo.                                            </p>
                                         </div>
-                                        <div className="col-md-12 text-right pt-5 "> 
-                                            <a target="_blank" href="https://meetwork.space"><button type="button"  className="btn btn-download shadow   bg-white">Activar mi establecimiento</button> </a>
+                                        <div className="col-md-12 text-right pt-5 ">  
+                                            <a rel="noopener noreferrer" target="_blank" href="https://meetwork.space"><button type="button"  className="btn btn-download shadow   bg-white">Activar mi establecimiento</button> </a>
                                         </div>
                                     
                                     
@@ -39,6 +39,9 @@ const SectionFrour = prop =>{
                         </div>
                 </div>
                 </div>
+                <div className="col-md-12 d-lg-none">
+                    <img alt=" " className="section-four-img" src="/img/section4.jpg"/>
+                </div> 
         </div>
     </div>
     )
