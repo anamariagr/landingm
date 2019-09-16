@@ -8,7 +8,7 @@ const SectionTwo = propo =>{
             <div className="row">
                     <div className="col-md-5 flex-row ml-md-auto  d-md-flex mt-5 pt-5">
                     <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-12 ">
                                 <div className="row letter-color">
                                         <div className="col-md-12">
                                             <span className="title-color">Descarga nuestra app</span>
@@ -45,7 +45,7 @@ const SectionTwo = propo =>{
                                                                     </p>
                                                                 </div>
                                                                 <div className="col-md-12 pl-2 pr-0">
-                                                                <a target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
+                                                                <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -67,7 +67,7 @@ const SectionTwo = propo =>{
                                                                     </p>
                                                                 </div>
                                                                 <div className="col-md-12 pl-2 pr-0">
-                                                                <a target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
+                                                                <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
                                                                 </div>
                                                         </div>
                                                 </div>
