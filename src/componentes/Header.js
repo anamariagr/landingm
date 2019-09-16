@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar'
+
 
 
 const Header = props =>{  
@@ -8,7 +8,7 @@ const Header = props =>{
       
         <header>
            <div className="container">
-            <Navbar/>
+            
             <div className="row pr-4 text-hero">
                   <div className="col-md-5">
                       <div className="row ">
@@ -17,8 +17,8 @@ const Header = props =>{
                             </div>
                             <div className="col-md-12">
                                   <h3 className="text-light">
-                                  Crea, conecta y potencia a tu comunidad de emprendedores
-                                  </h3>
+                                  Crea, conecta y potencia tu emprendimiento apoyad@ de nuestra comuidad
+                                  </h3> 
                             </div>
                             <div className="col-md-12">
                                   <p className="text-light letter-lato">
@@ -30,30 +30,30 @@ const Header = props =>{
                             <div className="col-md-9">
                                   <div className="row">
                                       <div className="col-6">
-                                          <a target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius">Registrarme</button></a>
+                                          <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius">Registrarme</button></a>
                                       </div>
                                       
                                   </div>
                             </div>
                             <div className="col-md-6">
                                   <div className="row ">
-                                        <div className="col">
+                                        <div className="col-md-3 col-2">
                                             <div className="circle">
-                                            <a target="_blank" href="https://www.instagram.com/meetwork.app/?hl=es-la">
+                                            <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/meetwork.app/?hl=es-la">
                                             <i className="fa fa-instagram"></i>
                                             </a>
                                             </div>
                                         </div>
-                                        <div className="col">
+                                        <div className="col-md-3 col-2">
                                         <div className="circle">
-                                        <a target="_blank" href="https://www.facebook.com/Meetworkapp/">
+                                        <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/Meetworkapp/">
                                         <i class="fa fa-facebook-f"></i>
                                         </a>
                                             </div>
                                         </div>
-                                        <div className="col">
+                                        <div className="col-md-3 col-2">
                                         <div className="circle">
-                                            <a target="_blank" href="https://www.linkedin.com/company/meetwork-co/" > 
+                                            <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/meetwork-co/" > 
                                               <i className="fa fa-linkedin"></i>
                                             </a>
                                             </div>

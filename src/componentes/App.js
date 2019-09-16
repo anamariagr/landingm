@@ -8,6 +8,11 @@ import SectionFive from './SectionFive';
 import SectionSeven from './SectionSeven'; 
 import SectionEight from './SectionEight'; 
 import SectionNine from './SectionNine';
+import Footer from './SectionFooter';
+import Navbar from './Navbar'
+import SelectItems from './SectionItems';
+import SectionCreate from "./SectionCreate";
+import SectionCowork from "./SectionCowork";
 
 
 class App extends Component {
@@ -15,21 +20,34 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
+        <div className="col-md-12 background-nav">
+                <Navbar/>
+              </div>
               <div className="col-md-12 background-hero">
                 <Header/>
               </div>
-              <div className="col-md-12 section-two " id="downdload"> 
+              <div className="col-md-12 pl-4 pr-sm-0" id="downdload"> 
+                <SelectItems/>
+              </div>
+              <div className="col-md-12 section-create" id="create" > 
+                <SectionCreate/>
+              </div>
+              <div className="col-md-12 section-two " id="hotdesk"> 
                 <SectionOne/>
               </div>
               <div className="col-md-12 backgroundTwo" id="comuniti"> 
                 <SectionTwo/>
               </div>
-              <div className="col-md-12 background-sectionThree"> 
-                <SectionTree/>
+              <div className="col-md-12 section-cowork" > 
+                <SectionCowork/> 
               </div>
-              <div className="col-md-12 background-section-four">  
+              <div className="col-md-12 background-section-four" id="restaurantes">  
                 <SectionFour/>
               </div>
+              <div className="col-md-12 background-sectionThree" id="Startups"> 
+                <SectionTree/>
+              </div>
+              
               <div className="col-md-12 background-section-five ">  
                 <SectionFive/>
               </div>
@@ -44,7 +62,7 @@ class App extends Component {
               
               </div>
               <div className=" col-md-12 fotter">
-              
+                  <Footer/>
               </div>
               
         </div>
