@@ -30,8 +30,8 @@ const Hero = props =>{
                                       </div>
                                   </div>
                             </div>
-                            <div className="col-md-6">
-                                  <div className="row ">
+                            <div className="col-md-6 margin-logo-red">
+                                  <div className="row">
                                         <div className="col-md-3 col-2">
                                             <div className="circle">
                                             <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/meetwork.app/?hl=es-la">

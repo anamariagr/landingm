@@ -1018,7 +1018,7 @@ p.subtitle-three {
   height: 100%;
 }
 .text-hero {
-  padding-top: 20px;
+  padding-top: 100px;
 }
 .border-green{
   border-top-right-radius: 20px;
@@ -1029,6 +1029,9 @@ p.subtitle-three {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-left: 30px;
+}
+.margin-logo-red{
+  margin-top: -20px;
 }
   
 }

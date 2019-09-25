@@ -5,7 +5,7 @@ import SectionTwo from './SectionTwo';
 import SectionTree from './SectionTree';
 import SectionFour from './sectionFour';
 import SectionFive from './SectionFive'; 
-import SectionSeven from './SectionSeven'; 
+//import SectionSeven from './SectionSeven'; 
 import SectionEight from './SectionEight'; 
 import SectionNine from './SectionNine';
 import Footer from './SectionFooter';
@@ -50,9 +50,7 @@ class App extends Component {
               <div className="col-md-12 background-section-five" id="Itinerante">  
                 <SectionFive/>
               </div>
-              <div className="col-md-12 background-section-six" id="prices">  
-               <SectionSeven/>
-              </div>
+           
               <div className="col-md-12 backgroundEight">  
                <SectionEight/>
               </div>
