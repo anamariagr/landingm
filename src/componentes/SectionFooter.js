@@ -28,7 +28,7 @@ const Footer = props =>{
                                     <div className="row mb-3">
                                         <div className="col-md-12 mb-3">
                                              <p className="letter-footer h5 border-botom">
-                                             Meetwork
+                                             <img alt=" " src="img/grup_1314.png"/>
                                              </p>
                                         </div>
                                         <div className="col-md-12">
@@ -125,8 +125,13 @@ const Footer = props =>{
                                         </div>
                                   </div>
                                             </div>
+                                           
                                         </div>
                                 </div>
+                                <div  className="col-lg-12">
+                                               <p className="text-white">2019 All rights reserved by Meetwork Spa.</p>
+                                            </div>
+                               
                             </div>
                         </div>
                        

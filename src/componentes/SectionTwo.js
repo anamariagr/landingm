@@ -11,7 +11,7 @@ const SectionTwo = propo =>{
                             <div className="col-md-12 ">
                                 <div className="row letter-color">
                                         <div className="col-md-12">
-                                            <span className="title-color">Descarga nuestra app</span>
+                                            <span className="title-color">¿ En cuantos grupos de chats estas?</span>
                                         </div>
                                         <div className="col-md-12 pb-2">
                                             <p className="subtitle">
@@ -27,15 +27,15 @@ const SectionTwo = propo =>{
                                         </div>
                                         <div className="col-md-12 mobile-ml">
                                             <div  className="row">
-                                            <div className="col-md-5 card m-3 p-3 card-shadow ">
+                                            <div className="col-md-5 card  card-shadow ">
                                                         <div  className="row">
                                                                 <div className="col-md-12">
-                                                                    <div className="circle-card">
-
+                                                                    <div >
+                                                                        <img alt=" " className="circle-card-img" src="/img/comunidad_meetwork.png"/>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-md-12 h6">
-                                                                    <p>
+                                                                    <p className="font-weight-bold h6">
                                                                     Comunidad Meetwork
                                                                     </p>
                                                                 </div>
@@ -49,15 +49,15 @@ const SectionTwo = propo =>{
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="col-md-5 card m-3 p-3 card-shadow ">
+                                                <div className="col-md-5 card  card-shadow ">
                                                         <div  className="row">
                                                                 <div className="col-md-12">
-                                                                    <div className="circle-card">
-
+                                                                    <div>
+                                                                    <img alt=" "  className="circle-card-img" src="/img/crea_tu_comun idad.png"/>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-md-12 h6">
-                                                                    <p>
+                                                                    <p className="font-weight-bold h6">
                                                                     Crea tu comunidad
                                                                     </p>
                                                                 </div>

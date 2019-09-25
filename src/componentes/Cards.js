@@ -38,9 +38,9 @@ const Cards = props =>{
                                                            </span>
                                                     </div>
                                                     <div className="col-md-12">
-                                                                <p>
+                                                                <span>
                                                                 Hemos desarrollado una herramienta para gestionar comunidades de Startups a través de la tecnología de puedes gestionar el desarrollo de cada uno de estos proyectos.
-                                                                </p>
+                                                                </span>
                                                     </div>
                                                 </div>
                                             </div>  
@@ -61,9 +61,9 @@ const Cards = props =>{
                                                         </span>
                                                     </div>
                                                     <div className="col-md-12">
-                                                                    <p>
+                                                                    <span>
                                                                     Súmate a nuestra comunidad , conoce otras personas que pertenecen a tu ecosistema y empieza a interactuar con ellos invitándolos a un café y compartiendo tus productos y servicios.
-                                                                    </p>
+                                                                    </span>
                                                     </div>
                                                 </div>
                                             </div>  
@@ -80,9 +80,9 @@ const Cards = props =>{
                                                            </span>
                                                     </div>
                                                     <div className="col-md-12">
-                                                        <p>
+                                                        <span>
                                                         Si colaboras o eres dueño de un bar, café o restaurante y te interesa aumentar tus ventas durante los horarios que normalmente no tienen clientes, tenemos una herramienta de marketing que te ayudara a esto.
-                                                        </p>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>  

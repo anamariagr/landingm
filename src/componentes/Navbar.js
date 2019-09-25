@@ -4,7 +4,8 @@ const Navbar = props =>{
 
     return(
       
-    
+    <div className="container">
+
         <nav className="navbar navbar-expand-lg navbar-light space-nav">
         <a className="navbar-brand" target="_blank" href=" # ">
         <img className="imglogo" alt="icon" src="./img/logo1.png"/> 
@@ -38,6 +39,7 @@ const Navbar = props =>{
         </div>
       </nav>
 
+    </div>
     );
 
 }

@@ -7,16 +7,26 @@ body {
   
 }
 p{
-  font-size: 13px;
+  font-size: 14px;
+    font-family: lato,regular;
+    color: #38456E;
+    line-height: 18px;
 }
 a{
   color: white;
+  font-family: lato;
 }
 a:hover {
   color: #237e41;
   text-decoration: none;
+  
 }
 
+.psectionitems{
+  font-weight: bold;
+  color: #38456E;
+  font-size: 23px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -77,8 +87,8 @@ a.nav-link{
   border-radius: 21px;
   border: 2px solid; 
   font-size: 14px;
-  padding-left: 33px;
-  padding-right: 33px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -124,6 +134,9 @@ a.nav-hover:hover {
 .btn-app{
   width: 88px;
 }
+.btn-app-section-two{
+  width: 100%;
+}
 .line{
      width: 117px;
       height: 3px;
@@ -143,23 +156,18 @@ a.nav-hover:hover {
 
 
 
-.title-color{
-  font-size: 13px;
-  font-weight: 700;
-  color: #45d87d;
-}
-.circle-card{
-  background-color: #dfffed;
-    height: 45px;
-    width: 45px;
-    border-radius: 30px;
-    margin: 0;
-    margin-top: -3px;
-    margin-bottom: 10px;
+
+.circle-card-img{ 
+  width: 60px;
+  padding-bottom: 15px;
 }
 .card-shadow {
-  box-shadow: 1px 20px 36px 2px rgba(49, 205, 126, 0.12);
+  box-shadow: 15px 11px 36px 2px rgba(49, 205, 126, 0.12);
   line-height: 15px;
+  border-color: white;
+  padding: 17px;
+  margin: 10px;
+  border-radius: 16px;
 }
 .btn-card{
   border-radius: 19px;
@@ -168,6 +176,7 @@ a.nav-hover:hover {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 0; 
+  font-size: 13px;
 }
 .btn-card:hover{
   
@@ -194,9 +203,19 @@ a.nav-hover:hover {
   background: linear-gradient(to right, rgb(84, 189, 116) 0%, rgb(51, 181, 115) 21%, rgb(50, 218, 133) 100%);
     
 }
+.btn-download-mate{
+  width: 240px;
+  background-color: #2ED887!important;
+  padding: 010px;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 28px;
+  color: white;
+  font-weight: bold;
+}
 .size-logo{
-  width: 100px;
-  padding: 5px;
+  width: 100%;
+  
 
 }
 .line-five{
@@ -233,8 +252,8 @@ a.nav-hover:hover {
 }
 .icon-float{
   position: relative;
-  top: -75px;
-  z-index: -1;
+  top: -382px;
+  opacity: 1.7;
 }
 .pEight{
   z-index: 1;
@@ -294,8 +313,9 @@ a.nav-hover:hover {
   font-size: 13px;
 }
 .btn:hover {
-  color: #d8e2d7;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
 }
 .btn-coworking{
   margin-left: 0;
@@ -305,12 +325,121 @@ a.nav-hover:hover {
     background-color: #2ED887;
     color: white;
     border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-radius-register:hover {
+  color: #32d276;
+  text-decoration: none;
+  background-color: #ffffff;
+  box-shadow: 5px 6px 16px 0px rgb(255, 255, 255);
+}
+.btn-radius:hover {
+  color: #32d276;
+  text-decoration: none;
+  background-color: #ffffff;
+  box-shadow: 5px 6px 16px 0px rgb(255, 255, 255);
 }
 
 
 @media only screen and (max-width: 2000px) {
+  .card-month-one{
+    background-color: white;
+    height: 366px;
+    width: 240px;
+    margin-left: 93px;
+    border-radius: 15px;
+    position: relative;
+    top: 27px;
+    box-shadow: 24px 22px 93px 20px rgb(197, 248, 234);
+}
+  .card-month-two{
+    background-color: white;
+    height: 366px;
+    width: 240px;
+    border-radius: 15px;
+    position: relative;
+    top: 27px;
+    left: -7px;
+    box-shadow: 24px 22px 93px 20px rgb(197, 248, 234);
+  }
+  .card-month-three {
+    height: 410px;
+    width: 240px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 86%;
+    left: 45px;
+    background: linear-gradient(180deg, rgba(45, 194, 122, 0.92) 8%, rgba(36, 203, 122, 0.85) 22%, rgb(49, 221, 138) 79%);
+    box-shadow: -4px 3px 20px 15px rgb(197, 248, 234);
+}
+.padding-card{
+  text-align: center;
+  padding-top: 20px
+}
+.padding-card-green{
+  text-align: center;
+  padding-top: 30px
+}
+.btn-radius-card {
+  border-radius: 21px;
+  border: 2px solid #35dc8a;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #35dc8a;
+    font-weight: bold;
+}
+.btn-radius-card:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #35dc8a;
+}
+.subti-card{
+  color: #3b6199;
+    font-weight: bold;
+}
+.subti-card-white{
+  color: white;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.padding-card-white{
+  padding-left: 40px;
+    padding-right: 40px;
+}
+.padding-top{
+  padding-top: 15px;
+}
+.ext-one-card{
+  padding-left: 40px;
+    padding-right: 43px;
+}
+  .title-color{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2ED183;
+    margin-top: 50px;
+  }
+  .padding-cowork{
+    padding-left: 50px;
+  }
 
-  
+  .btn-radius-register {
+  border-radius: 21px;
+  border: 2px solid;
+  font-size: 14px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color:  #34d977;
+  border-color: white;
+}
   .img-footer{
     background-image: url('/img/img-footer.png');
     height: 240px;
@@ -333,7 +462,7 @@ a.nav-hover:hover {
     background-repeat: no-repeat;
     background-position: right;
     margin-top: 100px;
-    background-size: contain;
+    background-size: cover;
   }
   .background-section-five{
     background-image: url('/img/Elipse.png');
@@ -352,15 +481,19 @@ a.nav-hover:hover {
       background-repeat: no-repeat;
       left: -7px;
      margin-bottom: -15px;
+     background-size: 55%;
     
   }
   .backgroundEight{
     background-image: url('/img/section_8.png');
     position: relative;
-    top: 200px;
-    height: 700px;
-    background-size: contain;
+    top: 100px;
+    height: 500px;
+    background-size: inherit;
     background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    margin-bottom: 100px;
   }
   
   .letter-color{
@@ -390,7 +523,7 @@ a.nav-hover:hover {
 
   .section-two{
     background-image: url('/img/section_2.png');
-    height: 763px;
+    height: 845px;
     width: 100%;
     background-size: 57%;
     background-repeat: no-repeat;
@@ -406,26 +539,8 @@ a.nav-hover:hover {
   }
 
 
-  .items-price {
-    padding-left: 115px;
-    margin-left: 100px;
-}
-.card-green{
-    height: 392px;
-    background-color: rgb(46, 182, 120);
-    padding: 15px;
-    color: white;
-    border-color: #52c365bd;
-    border-radius: 7px;
-    box-shadow: 1px 5px 34px 12px rgba(54, 215, 138, 0.27);
-    z-index: 1;
-    margin-bottom: 0px;
-  margin-top: 0px; 
-  line-height: 14px;
-  padding-top: 30px;
-
   
-  }
+
 .btn-price {
   background-color: white;
   color: #34d882;
@@ -433,17 +548,8 @@ a.nav-hover:hover {
   font-size: 14px;
   border: solid 1px #2eb677;
 }
-.card-white {
-  height: 330px;
-    margin-top: 30px;
-  padding: 26px;
-  font-size: 10px;
-  line-height: 17px;
-  box-shadow: 1px 5px 34px 12px rgba(54, 215, 138, 0.27);
-}
-.card-green.card-white:hover {
-  box-shadow: 1px 5px 34px 12px rgba(52, 216, 130, 0.36);
-}
+
+
 .sectionNinebackground{
   background-image: url('/img/sectionNine.jpg'); 
   height: 600px;
@@ -454,7 +560,7 @@ a.nav-hover:hover {
 .fotter{
   background-image: url('/img/footer.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 130%;
 }
 .carouel-center{
   text-align: center;
@@ -489,14 +595,13 @@ a.nav-hover:hover {
 }
 
 .margin-l{
-  margin-left: 245px; 
+  margin-left: auto; 
 
 }
 .space-nav{
-  padding: 27px;
-    padding-bottom: 15px;
+ padding-bottom: 15px;
     padding-top: 15px;
-    padding-left: 70px;
+   
 }
 .font-padding{
   padding-left: 250px;
@@ -514,7 +619,7 @@ a.nav-hover:hover {
 }
 
 .img-selectoritems{
-  width: 250px;
+  width: 230px;
   padding-bottom: 20px;
   padding-right: 0;
   cursor: pointer;
@@ -530,23 +635,28 @@ a.nav-hover:hover {
 }
 
 .subtitle-card{
-  border-bottom: 2px solid #2ed887;
-  width: 150px;
-  padding-bottom: 10px;
+  border-bottom: 3px solid #2ed887;
+  width: 90px;
+  padding-bottom: 5px;
   margin: auto;
 }
 .text-margin{
   padding-left: 5px;
-    padding-right: 5px;
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 18px;
-    margin-bottom: 20px;
-    margin-left: -5px; 
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 18px;
+  margin-bottom: 10px;
+  margin-left: -5px;
+  font-family: lato-light;
+  color: #38456E; 
 }
 .round {
   border-radius: 10px;
   padding-bottom: 20px;
+  border-color: white;
+  box-shadow: 5px 12px 45px 0px rgb(214, 222, 240);
+
 }
 .top-p{
   position: relative;
@@ -566,13 +676,14 @@ a.nav-hover:hover {
   top: 160px;
   z-index: 6;
   position: absolute;
+  opacity: 0.5;
 }
 
 
 .img-section-create{
-  width: 450px;
-    height: 575px;
-    margin-left: 35px;
+  width: 100%;
+  height: 100%;
+  margin-left: 35px;
 }
 .subtitle-create{
   font-size: 37px;
@@ -585,7 +696,7 @@ a.nav-hover:hover {
 
 } 
 .section-create{
-  padding-bottom: 45px;
+  padding-bottom: 0px;
 }
 .background-cowork {
   height: 100%;
@@ -593,11 +704,30 @@ a.nav-hover:hover {
   position: absolute;
 }
 .section-cowork{
-  height: 850px;
+  height: 1030px;
   padding-top: 100px;
 }
 .display-on-mobile{
   display: none;
+}
+.img-section-tree{
+  width: 100%;
+}
+.position-setection-logo{
+  position: relative;
+  bottom: 135px;
+}
+.btn-radius-registe {
+  border-radius: 21px;
+  border: 2px solid;
+  font-size: 14px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: #34d977;
+  border-color: white;
 }
 }
 
@@ -605,6 +735,45 @@ a.nav-hover:hover {
 
 
 @media only screen and (max-width: 600px) {
+  .card-month-one {
+   
+    margin-left: 0;
+    margin-bottom: 45px;
+}
+.card-month-three{
+  bottom: -60px;
+  left: 0;
+  margin-left: 10px;
+}
+.card-month-two{
+  margin-left: 10px;
+}
+.btn-radius-registe {
+ width: 80%;
+}
+.icon-float {
+
+  display: none;
+}
+  .position-setection-logo{
+    position: relative;
+    bottom: 0px;
+  }
+  .img-section-tree{
+    width: 100%;
+    padding-top: 60px;
+  }
+  .title-color{
+   padding-left: 0;
+    margin-top: 10px;
+  }
+  .padding-cowork {
+    padding-left: 15px;
+}
+  .btn-radius-register{
+    width: 100%;
+    margin-bottom: 15px;
+  }
   .img-selectoritems {
     width: 200px;
     padding-left: 5px;
@@ -614,6 +783,9 @@ a.nav-hover:hover {
     width: inherit;
     padding-top: 100px;
     padding-bottom: 100px;
+    z-index: 2;
+    position: relative;
+    left: -30px;
   }
   .background-cowork-mobile{
     height: 100%;
@@ -680,10 +852,10 @@ a.nav-hover:hover {
     margin-left: 0;
 }
   .space-nav {
-    padding: 8px;
+    
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-left: 0;
+  
 }
   .font-padding {
     padding-left: 0;
@@ -717,14 +889,8 @@ a.nav-hover:hover {
   .card-white{
      margin-top: 0px;
   }
-  .card-green{
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
-  .items-price{
-    padding-left: 0px;
-    margin-left: 0px;
-  }
+ 
+  
   .background-section-five{
     background-image: none;
     border-top: 2px solid #31c279;
@@ -752,11 +918,11 @@ a.nav-hover:hover {
   .btn-radius {
     padding-right: 10px;
     padding-left: 10px;
-    width: 260px;
+    width: 100%;
 }
 .backgroundTwo {
   background-image: url('/img/backgroundTwo.jpg');
-  height: 1350px;
+  height: 1485px;
   width: 100%;
   background-repeat: no-repeat;
   left: -7px;
@@ -784,7 +950,7 @@ a.nav-hover:hover {
 }
 .background-sectionThree{
   background-image: none;
-    height: 1200px;
+  height: 1550px;
 }
 p.subtitle-three {
   font-size: 30px;

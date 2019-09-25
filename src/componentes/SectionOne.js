@@ -13,7 +13,7 @@ const SectionOne = props =>{
                                         </div>
                                         <div className="col-md-12 pb-lg-2">
                                             <p className="subtitle">
-                                           Coworking itinerantes en bares, cafés y restaurantes
+                                            Hotdesk itinerantes en bares, cafés y restaurantes
                                             </p>
                                             <div className="line ">
                                                 
@@ -22,8 +22,8 @@ const SectionOne = props =>{
                                         
                                         <div className="col-md-12">
                                             <p>
-                                            Con nosotros siempre vas a tener un espacio de trabajo ( Hotdesk free ) disponible en el bar, café o restaurante más cercano a tu ubicación, descarga nuestra app y empieza a generar tus reservas. 
-                                            </p>
+                                            Con nosotros siempre vas a tener un espacio de trabajo ( Hotdesk free ) disponible en el bar, café o restaurante más cercano a tu ubicación, descarga nuestra app y empieza a generar tus reservas.
+                                             </p>
                                         </div>
                                         <div className="col-md-12">
                                             <p>
@@ -31,7 +31,7 @@ const SectionOne = props =>{
                                             </p>
                                         </div>
                                         <div className="col-md-12">
-                                       <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" class="btn btn-coworking shadow  ">Descarga</button></a> 
+                                       <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" class="btn btn-coworking shadow  ">Descarga nuestra app</button></a> 
                                         </div>
                                         <div className="col-md-12 p-3 mt-3">
                                             <div className="row  ">

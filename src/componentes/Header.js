@@ -13,26 +13,26 @@ const Header = props =>{
                   <div className="col-md-5">
                       <div className="row ">
                             <div className="col-md-12">
-                            <p className="text-light letter-lato">¿ Cómo te comunicas con tu comunidad?</p>
+                            <p className="text-light letter-lato">¿ Como te comunicas con tu comunidad?</p>
                             </div>
                             <div className="col-md-12">
                                   <h3 className="text-light">
-                                  Crea, conecta y potencia tu emprendimiento apoyad@ de nuestra comuidad
+                                  Construye , crece y escala la comunidad de tu Startup
                                   </h3> 
                             </div>
                             <div className="col-md-12">
                                   <p className="text-light letter-lato">
-                                  Transformamos la infraestructura disponible de las ciudades en espacios de
-                                   trabajo colaborativo y las conectamos con comunidades de personas que buscan 
-                                  un espacio con un poco de amor y wifi para desarrollar sus proyectos.
+                                  Transformamos la infraestructura disponible de las ciudades en espacios de trabajo colaborativo y las conectamos con comunidades de personas que buscan un espacio con un poco de amor y wifi para desarrollar sus proyectos.
                                   </p>
                             </div>
                             <div className="col-md-9">
                                   <div className="row">
-                                      <div className="col-6">
-                                          <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius">Registrarme</button></a>
+                                      <div className="col-lg-6 col-sm-12">
+                                          <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-register">Registrarme</button></a>
                                       </div>
-                                      
+                                      <div className="col-lg-6 col-sm-12">
+                                          <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius">Conocer más</button></a>
+                                      </div>
                                   </div>
                             </div>
                             <div className="col-md-6">

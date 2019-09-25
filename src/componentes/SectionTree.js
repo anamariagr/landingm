@@ -5,11 +5,13 @@ const SectionTree = props =>{
     return(
 
         <div className="container">
-             <div className="row letter-color-Three">
-                   <div className="col-md-5 pr-5">
+             <div className="row justify-content-around letter-color-Three">
+
+                   <div className="col-md-6 pr-5">
                        <div className="row">
-                            
-                                        <div className="col-md-12 pb-5">
+                            <div className="col-md-12"> 
+                                 <div className="row">
+                                 <div className="col-md-12 pb-5">
                                             <p className="subtitle-three">
                                             ¿Colaboras con emprendedores?
                                                 </p>
@@ -42,18 +44,28 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                                 Todos los días los emprendedores encuentran nuevos desafíos por resolver, y necesitan tomar decisiones rápidas, estas se deberían fundamentar en la información clave que mueve su negocio, nuestra plataforma ayuda a las incubadoras y aceleradoras a comunicarse con los emprendedores mostrándoles información clave de los avances y así poder tomar decisiones estratégicas.
                                                 </p>
                                             </div>
-                                            <div className="col-md-12 mb-4 pb-2">
+                                 </div>
+                            </div>
+                       </div>
+                    </div>  
+                    <div className="col-md-5">
+                        <img alt=" "  className="img-section-tree" src="/img/section_aceleradoras_1.png"/>
+
+                        </div>  
+                        <div className="col-md-12">
+                                <div className="row position-setection-logo">
+                                <div className="col-md-10 mb-4 pb-2">
                                                 <div className="row">
-                                                    <div className="col col-sm-3">
+                                                    <div className="col col-sm-2">
                                                         <img alt="logo-4" className="size-logo" src="./img/startup.png"/>
                                                     </div>
-                                                    <div className="col col-sm-3">
+                                                    <div className="col col-sm-2">
                                                         <img alt="logo-5" className="size-logo" src="./img/simon.png"/>
                                                     </div>
-                                                    <div className="col col-sm-3">
+                                                    <div className="col col-sm-2">
                                                         <img  alt="logo-6" className="size-logo" src="./img/logo_digevo.png"/>
                                                     </div>
-                                                    <div className="col col-sm-3">
+                                                    <div className="col col-sm-2">
                                                         <img   alt="logo-7" className="size-logo" src="./img/logo_social_lab.png"/> 
                                                     </div>
                                                 </div>
@@ -65,12 +77,10 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                         <div className="col-md-12">
                                         <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button></a>
                                         </div>
-                                       
-                                           
-                                            <div className="col-md-12 ground-float-one"></div>
-                                       
-                       </div>
-                    </div>                  
+                                </div>
+                        </div>
+                       
+                                                        
                                        
                 </div>
                

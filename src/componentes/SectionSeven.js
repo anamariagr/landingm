@@ -5,7 +5,7 @@ const SectionSeven = porps =>{
     return(
             <div className="container">
                     <div className="row letter-color">
-                         <div className="col-md-12 text-center">
+                         <div className="col-md-12 text-center pt-lg-5">
                          <span class="title-color">Nuestras Memebresias</span>
                          </div>
                          <div className="col-md-12 text-center pb-4">
@@ -25,90 +25,85 @@ const SectionSeven = porps =>{
                                         </div>
                                 </div>
                          </div>
-                         <div className="col-md-12 text-center">
-                            <div className="row items-price">
-                                <div className="col-md-3 pr-lg-0 mr-lg-0  text-center">
-                                        <div className="card card-white"> 
-                                        <div className="row">
-                                                        <div className="col-12 h4 mb-0">
-                                                                <p>Freemium</p>
+                         <div className="col-lg-12">
+                            
+                            <div className="row justify-content-around">
+                                        <div className="col-lg-4"> 
+                                                <div className="card-month-one">
+                                                        <div className="row padding-card">
+                                                                <div className="col-lg-12">
+                                                                        <p className="h4 subti-card">Profecional</p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2">
+                                                                <p className="subti-card h5">$29.99<small>/month</small></p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2">
+                                                                        <smal className="text-one-card">Tecnologia de bajo costoque soluciona problemas reales</smal>
+                                                                        <div><p className="padding-top">500 Usuarios activos</p></div>
+                                                                        <div><p>Dashboard de la comunidad</p></div>
+                                                                        <div><p>500 Usuarios activos</p></div>
+                                                                        <div><p>500GB de almacenamiento</p></div>
+                                                                        
+                                                                </div>
+                                                                <div className="col-lg-12 ">
+                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
+                                                                         </div>
                                                         </div>
-                                                        <div className="col-12 h5 mb-0">
-                                                                 <p>$ 0/<small>month</small></p>
-                                                        </div>
-                                                        <div className="col-12">
-                                                                <p>Tecnologia de bajo costo para solucionar problemas</p>
-                                                        </div>
-                                                        <div className="col-12 ">
-                                                                <p>Reserva gratis</p>
-                                                                <p>Descuentos en consumo</p>
-                                                                <p>Comunidad</p>
-                                                                <p>Eventos</p>
-                                                                
-
-                                                        </div>
-                                                            <div className="col-12">
-                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
-                                                            </div>
                                                 </div>
                                         </div>
+                                        <div className="col-lg-4">
+                                        <div className="card-month-two">
+                                        <div className="row padding-card">
+                                                                <div className="col-lg-12">
+                                                                        <p className="h4 subti-card">Profecional</p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2">
+                                                                <p className="subti-card h5">$29.99<small>/month</small></p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2">
+                                                                        <smal className="text-one-card">Tecnologia de bajo costoque soluciona problemas reales</smal>
+                                                                        <div><p className="padding-top">500 Usuarios activos</p></div>
+                                                                        <div><p>Dashboard de la comunidad</p></div>
+                                                                        <div><p>500 Usuarios activos</p></div>
+                                                                        <div><p>500GB de almacenamiento</p></div>
+                                                                        
+                                                                </div>
+                                                                <div className="col-lg-12 ">
+                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
+                                                                        </div>
+                                                        </div>
+                                           </div>
+                                        </div>
                                 </div>
-                                <div className="col-md-3 pr-lg-0 mr-lg-0 pl-lg-0 ml-lg-0 text-center">
-                                          <div className="card card-green"> 
-                                                <div className="row">
-                                                        <div className="col-12 h4">
-                                                                <p>Premium</p>
+                                <div className="row justify-content-center">
+                                        <div className="col-lg-4">
+                                        <div className="card-month-three">
+                                        <div className="row padding-card-green">
+                                                                <div className="col-lg-12">
+                                                                        <p className="h4 subti-card-white">Profecional</p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2">
+                                                                <p className="subti-card-white h5">$29.99<small>/month</small></p>
+                                                                </div>
+                                                                <div className="col-lg-12 pb-2 padding-card-white">
+                                                                        <smal className="text-one-card text-white">Tecnologia de bajo costoque soluciona problemas reales</smal>
+                                                                        <div><p className="padding-top text-white">500 Usuarios activos</p></div>
+                                                                        <div><p className="text-white">Dashboard de la comunidad</p></div>
+                                                                        <div><p className="text-white">500 Usuarios activos</p></div>
+                                                                        <div><p className="text-white">500GB de almacenamiento</p></div>
+                                                                        
+                                                                </div>
+                                                                <div className="col-lg-12 ">
+                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-registe">Iniciar prueba gratis</button></a>
+                                                                         </div>
                                                         </div>
-                                                        <div className="col-12 h5">
-                                                                 <p>$3.00/<small>month</small></p>
-                                                        </div>
-                                                        <div className="col-12">
-                                                                <p>Tecnologia de bajo costo para solucionar problemas</p>
-                                                        </div>
-                                                        <div className="col-12 ">
-                                                                <p>Chat con otros usuarios</p>
-                                                                <p>Crea tu comunidad</p>
-                                                                <p>Cursos exclusivos</p>
-                                                                <p>Dia de trabajo en Coworking spaces</p>
-                                                                <p>Compra o vende servicios a la comunidad</p>
-
-                                                        </div>
-                                                            <div className="col-12">
-                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
-                                                            </div>
-                                                </div>
-                                            </div>
+                                           </div>
+                                        </div>
+                                       
                                 </div>
-                                <div className="col-md-3 pl-lg-0 ml-lg-0 text-center">
-                                    <div className="card card-white"> 
-                                            <div className="row">
-                                                        <div className="col-12 h4 mb-0">
-                                                                <p>Corporativo</p>
-                                                        </div>
-                                                        <div className="col-12 h5 mb-0">
-                                                                 <p>Consulta/<small>month</small></p>
-                                                        </div>
-                                                        <div className="col-12">
-                                                                <p>Tecnologia de bajo costo para solucionar problemas</p>
-                                                        </div>
-                                                        <div className="col-12 ">
-                                                                <p>Aceleradoras</p>
-                                                                <p>Incubadoras</p>
-                                                                <p>Comunidades</p>
-                                                                <p>Fuerzas de ventas</p>
-                                                                
-
-                                                        </div>
-                                                            <div className="col-12">
-                                                            <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"> <button type="button" className="btn btn-lg btn-price" >Inicia prueba Gratis</button></a>
-                                                            </div>
-                                                </div>
-                                            </div>
-                                    </div>
-                                   
-                               
-                             </div>
-                         </div>
+                            </div>
+                        
+        
                          <div className="col-3 d-ms-o">
                                                 <img href=" # " alt=" " className="icon-float" src="./img/2.png"/> 
                                     </div>
