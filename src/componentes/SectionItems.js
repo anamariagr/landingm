@@ -32,8 +32,8 @@ const SelectItems= props =>{
                                                                    
                                                                 </div>
                                                                
-                                                                <div className="col-md-12 pt-lg-4 mt-lg-2">
-                                                                        <a className="a-color" href=" # ">Conocer más</a>
+                                                                <div className="col-md-12 pt-lg-1 mt-lg-2">
+                                                                        <a className="a-color" href="#comuniti">Conocer más</a>
                                                                         </div>
                                                                
                                                                 
@@ -58,7 +58,7 @@ const SelectItems= props =>{
                                                                     
                                                                 </div>
                                                                 <div className="col-md-12 pt-lg-4 mt-lg-2">
-                                                                        <a className="a-color" href=" # ">Conocer más</a>
+                                                                        <a className="a-color" href="#hotdesk">Conocer más</a>
                                                                         </div>
                                                                 
                                                         </div>
@@ -80,7 +80,7 @@ const SelectItems= props =>{
                                                                     
                                                                 </div>
                                                                 <div className="col-md-12 ">
-                                                                        <a className="a-color" href=" # ">Conocer más</a>
+                                                                        <a className="a-color" href="#Coworks">Conocer más</a>
                                                                         </div>
                                                                
                                                         </div>

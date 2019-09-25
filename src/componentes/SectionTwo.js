@@ -45,7 +45,7 @@ const SectionTwo = propo =>{
                                                                     </p>
                                                                 </div>
                                                                 <div className="col-md-12 pl-2 pr-0">
-                                                                <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
+                                                                <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
                                                                 </div>
                                                         </div>
                                                 </div>
@@ -67,7 +67,7 @@ const SectionTwo = propo =>{
                                                                     </p>
                                                                 </div>
                                                                 <div className="col-md-12 pl-2 pr-0">
-                                                                <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
+                                                                <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" className="btn btn-outline-success btn-sm btn-card">Unir a la comunidad</button></a>
                                                                 </div>
                                                         </div>
                                                 </div>

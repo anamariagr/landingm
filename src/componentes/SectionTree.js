@@ -75,7 +75,7 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                                 Nos basamos en procesos de aceleración de aceleradoras de startups como:                                                </p>
                                             </div>
                                         <div className="col-md-12">
-                                        <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button></a>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://julian723095.typeform.com/to/ebI2gY"><button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button></a>
                                         </div>
                                 </div>
                         </div>

@@ -326,6 +326,7 @@ a.nav-hover:hover {
     color: white;
     border-radius: 50px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .btn-radius-register:hover {
@@ -340,9 +341,31 @@ a.nav-hover:hover {
   background-color: #ffffff;
   box-shadow: 5px 6px 16px 0px rgb(255, 255, 255);
 }
+.btn-radius-registe:hover {
+  color: #35dd8a;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-download-mate:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #2ebc78!important;
+}
+.btn-coworking:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #2ebd79;
+}
+
 
 
 @media only screen and (max-width: 2000px) {
+  .padding-hero{
+    padding-left: 0;
+    padding-right: 0;
+  }
   .card-month-one{
     background-color: white;
     height: 366px;
@@ -422,7 +445,7 @@ a.nav-hover:hover {
     font-size: 20px;
     font-weight: bold;
     color: #2ED183;
-    margin-top: 50px;
+    
   }
   .padding-cowork{
     padding-left: 50px;
@@ -704,7 +727,7 @@ a.nav-hover:hover {
   position: absolute;
 }
 .section-cowork{
-  height: 1030px;
+  height: 980px;
   padding-top: 100px;
 }
 .display-on-mobile{

@@ -15,7 +15,7 @@ const Footer = props =>{
                                         <p className="letter-footer h6">Crea tu cuenta y súmate al coworking más grande del mundo!</p>
                                 </div>
                                 <div className="col-md-6">
-                                <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login">
+                                <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar">
                                     <button type="button" class="btn btn-download btn-footer  bg-white">Registrarme</button></a>
                                 </div>
                         </div>
@@ -97,7 +97,7 @@ const Footer = props =>{
                                                 <p className="letter-footer h5 border-botom">Contáctanos</p>
                                             </div>
                                             <div className="col-md-12">
-                                                <p className="letter-footer font-letter"><a href="mailto:Hola@meetwork.app">Hola@meetwork.app</a></p>
+                                                <p className="letter-footer font-letter"><a href="mailto:hola@meetwork.app">hola@meetwork.app</a></p>
                                                 <p className="letter-footer font-letter"><a href="mailto:contacto@meetworl.app">contacto@meetworl.app</a></p>
                                             </div>
                                             <div className="col-md-12">

@@ -32,7 +32,7 @@ const SectionSeven = porps =>{
                                                 <div className="card-month-one">
                                                         <div className="row padding-card">
                                                                 <div className="col-lg-12">
-                                                                        <p className="h4 subti-card">Profecional</p>
+                                                                        <p className="h4 subti-card">Profesional</p>
                                                                 </div>
                                                                 <div className="col-lg-12 pb-2">
                                                                 <p className="subti-card h5">$29.99<small>/month</small></p>
@@ -46,7 +46,7 @@ const SectionSeven = porps =>{
                                                                         
                                                                 </div>
                                                                 <div className="col-lg-12 ">
-                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
+                                                                <a  rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
                                                                          </div>
                                                         </div>
                                                 </div>
@@ -55,7 +55,7 @@ const SectionSeven = porps =>{
                                         <div className="card-month-two">
                                         <div className="row padding-card">
                                                                 <div className="col-lg-12">
-                                                                        <p className="h4 subti-card">Profecional</p>
+                                                                        <p className="h4 subti-card">Profesional</p>
                                                                 </div>
                                                                 <div className="col-lg-12 pb-2">
                                                                 <p className="subti-card h5">$29.99<small>/month</small></p>
@@ -69,7 +69,7 @@ const SectionSeven = porps =>{
                                                                         
                                                                 </div>
                                                                 <div className="col-lg-12 ">
-                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
+                                                                <a  rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" class="btn btn-outline-light btn-radius-card ">Iniciar prueba gratis</button></a>
                                                                         </div>
                                                         </div>
                                            </div>
@@ -80,7 +80,7 @@ const SectionSeven = porps =>{
                                         <div className="card-month-three">
                                         <div className="row padding-card-green">
                                                                 <div className="col-lg-12">
-                                                                        <p className="h4 subti-card-white">Profecional</p>
+                                                                        <p className="h4 subti-card-white">Profesional</p>
                                                                 </div>
                                                                 <div className="col-lg-12 pb-2">
                                                                 <p className="subti-card-white h5">$29.99<small>/month</small></p>
@@ -94,7 +94,7 @@ const SectionSeven = porps =>{
                                                                         
                                                                 </div>
                                                                 <div className="col-lg-12 ">
-                                                                <a  rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/places"><button type="button" class="btn btn-outline-light btn-radius-registe">Iniciar prueba gratis</button></a>
+                                                                <a  rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" class="btn btn-outline-light btn-radius-registe">Iniciar prueba gratis</button></a>
                                                                          </div>
                                                         </div>
                                            </div>

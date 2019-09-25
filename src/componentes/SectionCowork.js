@@ -29,13 +29,13 @@ const SectionCowork = props =>{
                        de comunicación que te permite conocer a los miembros de tu coworking y todos los de la ciudad. 
                       </p>    
                       <p className="pt-lg-4 pb-lg-4">
-                      Solicita tu prueba gratis y empieza a comunicarte mas fácil y mejor !</p>                    
-                      <a rel="noopener noreferrer" target="_blank" href="https://meetwork.cl/login"><button type="button" className="btn btn-download shadow   bg-white">Solicitar prueba gratis</button></a>
+                      Solicita tu prueba gratis y empieza a comunicarte mas fácil y mejor!</p>                    
+                      <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" className="btn btn-download shadow   bg-white">Solicitar prueba gratis</button></a>
                                                                                                                  
             </div> 
                    </div>   
                 </div>
-                <div className="col-md-5 ">
+                <div className="col-md-6">
                      <img alt=" " className="background-cowork" src="./img/Coworking.png"/>
                 </div>
                 

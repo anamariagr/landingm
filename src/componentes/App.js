@@ -9,24 +9,23 @@ import SectionSeven from './SectionSeven';
 import SectionEight from './SectionEight'; 
 import SectionNine from './SectionNine';
 import Footer from './SectionFooter';
-import Navbar from './Navbar'
 import SelectItems from './SectionItems';
 import SectionCreate from "./SectionCreate";
 import SectionCowork from "./SectionCowork";
-
+import Hero from "./Hero";
 
 class App extends Component {
   render(){
     return (
       <div className="container-fluid">
         <div className="row">
-        <div className="col-md-12 background-nav">
-                <Navbar/>
-              </div>
-              <div className="col-md-12 background-hero">
+        <div className="col-md-12 padding-hero">
                 <Header/>
               </div>
-              <div className="col-md-12 pl-4 pr-sm-0" id="downdload"> 
+          <div className="col-md-12 background-hero" id="hero">
+            <Hero/>
+          </div>
+            <div className="col-md-12 pl-4 pr-sm-0" id="downdload"> 
                 <SelectItems/>
               </div>
               <div className="col-md-12 section-create" id="create" > 
@@ -38,7 +37,7 @@ class App extends Component {
               <div className="col-md-12 backgroundTwo" id="comuniti"> 
                 <SectionTwo/>
               </div>
-              <div className="col-md-12 section-cowork" > 
+              <div className="col-md-12 section-cowork" id="Coworks" >  
                 <SectionCowork/> 
               </div>
               <div className="col-md-12 background-section-four" id="restaurantes">  
@@ -48,7 +47,7 @@ class App extends Component {
                 <SectionTree/>
               </div>
               
-              <div className="col-md-12 background-section-five ">  
+              <div className="col-md-12 background-section-five" id="Itinerante">  
                 <SectionFive/>
               </div>
               <div className="col-md-12 background-section-six" id="prices">  
