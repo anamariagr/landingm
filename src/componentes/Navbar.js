@@ -22,7 +22,7 @@ const Navbar = props =>{
                 <a className="nav-link nav-hover " href="#hero">Home</a>
             </li>
             <li className="nav-item  space-li"> 
-                <a rel="noopener noreferrer"  target="_blank" class="nav-link nav-hover" href="http://meetwork.app/descargar">Hotdesk Free</a>
+                <a  class="nav-link nav-hover" href="#hotdesk">Hotdesk Free</a>
             </li>
             <li className="nav-item  space-li">
                 <a rel="noopener noreferrer" target="_blank" className="nav-link nav-hover" href="https://meetwork.space/">Crea tu comunidad</a> 
