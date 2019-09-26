@@ -3,12 +3,13 @@ import React from 'react';
 
 const Hero = props =>{
     return(
-        <div className="container">
+       <div className="background-hero">
+             <div className="container">
                  <div className="row pr-4 text-hero">
                   <div className="col-md-5">
                       <div className="row ">
                             <div className="col-md-12">
-                            <p className="text-light letter-lato">¿ Como te comunicas con tu comunidad?</p>
+                            <p className=" font-title-up">¿ Como te comunicas con tu comunidad?</p>
                             </div>
                             <div className="col-md-12">
                                   <h3 className="text-light">
@@ -59,6 +60,7 @@ const Hero = props =>{
                   </div>
             </div>
         </div>
+       </div>
 
     )
 

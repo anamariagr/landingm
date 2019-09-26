@@ -56,18 +56,12 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                 <div className="row position-setection-logo">
                                 <div className="col-md-10 mb-4 pb-2">
                                                 <div className="row">
-                                                    <div className="col col-sm-2">
-                                                        <img alt="logo-4" className="size-logo" src="./img/startup.png"/>
+                                                    <div className="col-md-12">
+                                                        <img className="display-on-desktop" alt=" " src="./img/logos-group.png"/>
+                                                        <img className="display-on-mobile" alt=" " src="./img/logos-group-mobile.png"/>
+                                                    
                                                     </div>
-                                                    <div className="col col-sm-2">
-                                                        <img alt="logo-5" className="size-logo" src="./img/simon.png"/>
-                                                    </div>
-                                                    <div className="col col-sm-2">
-                                                        <img  alt="logo-6" className="size-logo" src="./img/logo_digevo.png"/>
-                                                    </div>
-                                                    <div className="col col-sm-2">
-                                                        <img   alt="logo-7" className="size-logo" src="./img/logo_social_lab.png"/> 
-                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div className="col-md-12 p-3">
@@ -75,7 +69,7 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                                 Nos basamos en procesos de aceleración de aceleradoras de startups como:                                                </p>
                                             </div>
                                         <div className="col-md-12">
-                                        <a rel="noopener noreferrer" target="_blank" href="https://julian723095.typeform.com/to/ebI2gY"><button type="button" class="btn btn-download shadow   bg-white">Iniciar una prueba gratis</button></a>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://julian723095.typeform.com/to/ebI2gY"><button type="button" class="btn btn-download bg-white">Iniciar una prueba gratis</button></a>
                                         </div>
                                 </div>
                         </div>

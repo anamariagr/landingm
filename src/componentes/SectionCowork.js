@@ -30,7 +30,7 @@ const SectionCowork = props =>{
                       </p>    
                       <p className="pt-lg-4 pb-lg-4">
                       Solicita tu prueba gratis y empieza a comunicarte mas fácil y mejor!</p>                    
-                      <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" className="btn btn-download shadow   bg-white">Solicitar prueba gratis</button></a>
+                      <a rel="noopener noreferrer" target="_blank" href="http://meetwork.app/descargar"><button type="button" className="btn btn-download shadow bg-white">Solicitar prueba gratis</button></a>
                                                                                                                  
             </div> 
                    </div>   

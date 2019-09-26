@@ -14,7 +14,7 @@ const SectionTwo = propo =>{
                                             <span className="title-color">¿ En cuantos grupos de chats estas?</span>
                                         </div>
                                         <div className="col-md-12 pb-2">
-                                            <p className="subtitle">
+                                            <p className="subtitle-construye">
                                             Construye y escala la comunidad más grande de emprendedores                                            </p>
                                             <div className="line ">
                                                 

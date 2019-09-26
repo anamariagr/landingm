@@ -31,7 +31,7 @@ const SectionCreate = props =>{
                                                        
                                                 </div>
                                                 <div className="col-md-7 p-2 mt-3 ">
-                                            <div className="row justify-content-between">
+                                            <div className="row">
                                                     <div className="col-lg-5 col pr-1">
                                                       <a rel="noopener noreferrer" target="_blank" href="https://apps.apple.com/ar/app/meetwork-app/id1462502158" ><img alt="icon-1" className="btn-app" src="./img/Logo_appstore.png"/> </a>  
                                                    </div>  

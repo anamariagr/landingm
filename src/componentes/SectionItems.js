@@ -6,7 +6,7 @@ const SelectItems= props =>{
         <div className="container text-center pad-btm">
              <div className="row ">
                   <div className="col-md-12 pb-lg-5">
-                     <p className="h2">Las herramientas que necesitas para <br/> ser desarrollar tu emprendimiento en un mismo lugar</p>
+                     <p className="font-title-section-two">Las herramientas que necesitas para <br/> ser desarrollar tu emprendimiento en un mismo lugar</p>
                         
                   </div>
                   
@@ -32,7 +32,7 @@ const SelectItems= props =>{
                                                                    
                                                                 </div>
                                                                
-                                                                <div className="col-md-12 pt-lg-1 mt-lg-2">
+                                                                <div className="col-md-6 offset-md-3 mt-lg-5">
                                                                         <a className="a-color" href="#comuniti">Conocer más</a>
                                                                         </div>
                                                                
@@ -57,7 +57,7 @@ const SelectItems= props =>{
                                                                     </p>
                                                                     
                                                                 </div>
-                                                                <div className="col-md-12 pt-lg-4 mt-lg-2">
+                                                                <div className="col-md-6 offset-md-3 mt-lg-5">
                                                                         <a className="a-color" href="#hotdesk">Conocer más</a>
                                                                         </div>
                                                                 
@@ -79,7 +79,7 @@ const SelectItems= props =>{
                                                                      </p>
                                                                     
                                                                 </div>
-                                                                <div className="col-md-12 ">
+                                                                <div className="col-md-6 offset-md-3 ">
                                                                         <a className="a-color" href="#Coworks">Conocer más</a>
                                                                         </div>
                                                                

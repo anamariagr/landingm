@@ -22,7 +22,7 @@ class App extends Component {
         <div className="col-md-12 padding-hero">
                 <Header/>
               </div>
-          <div className="col-md-12 background-hero" id="hero">
+          <div className="col-md-12 background-secon-hero" id="hero">
             <Hero/>
           </div>
             <div className="col-md-12 pl-4 pr-sm-0" id="downdload"> 
