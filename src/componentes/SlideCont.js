@@ -7,7 +7,7 @@ const SilideCont = props =>{
             <div className="row  carouel-center">
                 <div className="col-md-12 bottom-space">
                   <div className="border-circle">
-                     <img  className="img-zise-cicle" src="./img/face.png" alt=" "/>
+                     <img  className="img-zise-cicle img-zise-nalaui" src="./img/face.png" alt=" "/>
                      
                   </div>
                 </div>
@@ -18,7 +18,7 @@ const SilideCont = props =>{
                 </div>
                 <div className="col-md-12 bottom-space">
                    <p>
-                   Alan Brito | Simon de Cirene
+                   Alena Mendez | Simon de Cirene
                    </p>
                 </div>
             </div>

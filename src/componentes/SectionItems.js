@@ -6,7 +6,7 @@ const SelectItems= props =>{
         <div className="container text-center pad-btm">
              <div className="row ">
                   <div className="col-md-12 pb-lg-5">
-                     <p className="font-title-section-two">Las herramientas que necesitas para <br/> ser desarrollar tu emprendimiento en un mismo lugar</p>
+                     <p className="font-title-section-two">Las herramientas que necesitas para <br/> desarrollar tu emprendimiento en un mismo lugar</p>
                         
                   </div>
                   

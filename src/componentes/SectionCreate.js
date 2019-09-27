@@ -9,7 +9,7 @@ const SectionCreate = props =>{
                     
                 <img alt=" "className="img-section-create" src="./img/SocialNetwork.png"/>   
              </div>
-             <div className="col-md-5 pr-lg-5 pb-lg-2 mr-lg-5"> 
+             <div className="col-md-5 pr-lg-5 pb-lg-2 mr-lg-5 mt-lg-5 pt-lg-5"> 
              <div className="row ">
                          <div className=" col text-right title-color">
                              <p className="title-color h5">Crea y gestiona tu comunidad</p>
