@@ -12,9 +12,9 @@ const SectionOne = props =>{
                                             <span className="title-color">Descarga nuestra app</span>
                                         </div>
                                         <div className="col-md-12 pb-lg-2">
-                                            <p className="subtitle">
-                                            Hotdesk itinerantes en bares, cafés y restaurantes
-                                            </p>
+                                            <h3 className="subtitle">
+                                            Coworking itinerante en bares, cafés y restaurantes
+                                            </h3>
                                             <div className="line ">
                                                 
                                         </div>
@@ -36,10 +36,10 @@ const SectionOne = props =>{
                                         <div className="col-md-12 p-3 mt-3">
                                             <div className="row  ">
                                                     <div className="col-5 col-lg-3  pr-1">
-                                                      <a rel="noopener noreferrer" target="_blank" href="https://apps.apple.com/ar/app/meetwork-app/id1462502158" ><img alt="icon-1" className="btn-app" src="./img/Logo_appstore.png"/> </a>  
+                                                      <a rel="noopener noreferrer" target="_blank" href="https://apps.apple.com/ar/app/meetwork-app/id1462502158" ><img alt="descarga meetwork ios" className="btn-app" src="./img/Logo_appstore.png"/> </a>  
                                                    </div>  
                                                     <div className="col pl-1"> 
-                                                       <a rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=meetwork.app&hl=es"><img alt="logo-3"  className="btn-store"  src="./img/logo-android.png"/></a> 
+                                                       <a rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=meetwork.app&hl=es"><img alt="descarga meetwork android"  className="btn-store"  src="./img/logo-android.png"/></a> 
                                                     </div>
                                             </div>
                                         </div>

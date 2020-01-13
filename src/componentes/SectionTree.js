@@ -12,9 +12,9 @@ const SectionTree = props =>{
                             <div className="col-md-12"> 
                                  <div className="row">
                                  <div className="col-md-12 pb-5">
-                                            <p className="subtitle-three">
+                                            <h3 className="subtitle-three">
                                             ¿Colaboras con emprendedores?
-                                                </p>
+                                                </h3>
                                             <div className="line-three">
                                                 
                                         </div>
@@ -49,7 +49,7 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                        </div>
                     </div>  
                     <div className="col-md-5">
-                        <img alt=" "  className="img-section-tree" src="/img/section_aceleradoras_1.png"/>
+                        <img alt="aceleradoras meetwork"  className="img-section-tree" src="/img/section_aceleradoras_1.jpg"/>
 
                         </div>  
                         <div className="col-md-12">
@@ -57,8 +57,8 @@ Hemos desarrollado una herramienta para gestionar comunidades de Startups a trav
                                 <div className="col-md-10 mb-4 pb-2">
                                                 <div className="row">
                                                     <div className="col-md-12">
-                                                        <img className="display-on-desktop" alt=" " src="./img/logos-group.png"/>
-                                                        <img className="display-on-mobile" alt=" " src="./img/logos-group-mobile.png"/>
+                                                        <img className="display-on-desktop" alt="logo meetwork" src="./img/logos-group.png"/>
+                                                        <img className="display-on-mobile" alt="logo meetwork" src="./img/logos-group-mobile.png"/>
                                                     
                                                     </div>
 

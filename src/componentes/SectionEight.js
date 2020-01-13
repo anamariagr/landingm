@@ -7,7 +7,7 @@ const SectionEight = props =>{
             <div className="container">
             <div className="row">
                 <div className="col-md-12 text-center sectonEight-text">
-                <p className="subtitle pEight"> Nuestra comunidad esta en todo latino américa y sigue creciendo</p>
+                <h4 className="subtitle pEight"> Nuestra comunidad esta en todo latino américa y sigue creciendo</h4>
                 </div>
                 <div className="col-md-12 text-center ">
                     <div className="row justify-content-center">

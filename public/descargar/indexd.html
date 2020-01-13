@@ -1,0 +1,44 @@
+<script>
+    
+    
+    
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+    
+    
+    if(isMobile.Android()){
+        window.location="https://play.google.com/store/apps/details?id=meetwork.app&hl=es"
+    }
+    
+    if(isMobile.iOS()){
+        window.location="https://apps.apple.com/ar/app/meetwork-app/id1462502158"
+    }
+    if(isMobile.Windows()){
+        window.location="https://meetwork.co"
+    }
+    
+    var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
+
+
+if(isMac){
+    window.location="https://meetwork.co"
+}
+</script>

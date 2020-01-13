@@ -1,2 +1,19 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+
+Disallow: /routes/
+
+Disallow: /node_modules/
+Disallow: /vendor/
+Disallow: /config/
+Disallow: /tests/
+Disallow: /config/
+Disallow: /resources/
+Disallow: /storage/
+Disallow: /database/
+Disallow: /bootstrap/
+Disallow: /app/
+Disallow: /storage/
+
+
+Sitemap: https://www.meetwork.app/sitemap.xml

@@ -16,9 +16,9 @@ const SectionFive = props =>{
                                             <span className="title-color">Descarga nuestra app</span>
                                         </div>
                                         <div className="col-md-12 pb-2">
-                                            <p className="subtitle">
+                                            <h3 className="subtitle">
                                             Coworking itinerantes en bares, cafés y restaurantes
-                                            </p>
+                                            </h3>
                                             <div className="line ">
                                                 
                                         </div>
@@ -30,12 +30,9 @@ const SectionFive = props =>{
                                             </p>
                                         </div>
                                         <div className="col-md-12 mt-4">
-                                                <img here=" # " alt=" " className="img-zise" src="./img/section_6.png"/> 
+                                                <img  alt="Emprendedores meetwork" className="img-zise" src="./img/section_6.jpg"/> 
                                         </div>
                                        
-                                        <div className="col-md-12 pt-5 text-center ">
-                                        <a rel="noopener noreferrer" target="_blank" href="https://meetwork.space"><button type="button"  className="btn btn-download shadow   bg-white">Activar mi establecimiento</button> </a>
-                                            </div> 
                                     
                                     
                                   

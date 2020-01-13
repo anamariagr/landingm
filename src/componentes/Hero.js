@@ -12,9 +12,9 @@ const Hero = props =>{
                                 <p className=" font-title-up">¿ Como te comunicas con tu comunidad?</p>
                                 </div>
                                 <div className="col-md-12">
-                                    <h3 className="text-light">
+                                    <h1 className="text-light">
                                     Construye , crece y escala la comunidad de tu Startup
-                                    </h3> 
+                                    </h1> 
                                 </div>
                                 <div className="col-md-12">
                                     <p className="text-light letter-lato">

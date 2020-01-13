@@ -11,8 +11,9 @@ const SectionFrour = prop =>{
                             <div className="row letter-color pt-0">
                                   
                                     <div className="col-md-12 pb-2">
-                                            <p className="subtitle-three">
-                                            ¿ Estas en la industria Gastronómica ?                                            </p>
+                                            <h3 className="subtitle-three">
+                                            ¿ Estas en la industria Gastronómica ?     
+                                            </h3>
                                            
                                         </div>
                                         
@@ -40,7 +41,7 @@ const SectionFrour = prop =>{
                 </div>
                 </div>
                 <div className="col-md-12 d-lg-none">
-                    <img alt=" " className="section-four-img" src="/img/section4.jpg"/>
+                    <img alt="meetwork en chile" className="section-four-img" src="/img/section4.jpg"/>
                 </div> 
         </div>
     </div>

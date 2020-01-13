@@ -7,7 +7,7 @@ const ItemSlider2 = props =>{
             <div className="row  carouel-center">
                 <div className="col-md-12 bottom-space">
                   <div className="border-circle">
-                     <img  className="img-zise-nalaui" src="./img/luis.jpg" alt=" "/>
+                     <img  className="img-zise-nalaui" src="./img/luis.jpg" alt="Comunidad Privada Meetwork"/>
                      
                   </div>
                 </div>

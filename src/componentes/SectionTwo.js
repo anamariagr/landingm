@@ -14,8 +14,9 @@ const SectionTwo = propo =>{
                                             <span className="title-color">¿ En cuantos grupos de chats estas?</span>
                                         </div>
                                         <div className="col-md-12 pb-2">
-                                            <p className="subtitle-construye">
-                                            Construye y escala la comunidad más grande de emprendedores                                            </p>
+                                            <h3 className="subtitle-construye">
+                                            Construye y escala la comunidad más grande de emprendedores     
+                                            </h3>
                                             <div className="line ">
                                                 
                                         </div>
@@ -31,7 +32,7 @@ const SectionTwo = propo =>{
                                                         <div  className="row">
                                                                 <div className="col-md-12">
                                                                     <div >
-                                                                        <img alt=" " className="circle-card-img" src="/img/comunidad_meetwork.png"/>
+                                                                        <img alt="comunidad meetwork" className="circle-card-img" src="/img/comunidad_meetwork.png"/>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-md-12 h6">
@@ -53,7 +54,7 @@ const SectionTwo = propo =>{
                                                         <div  className="row">
                                                                 <div className="col-md-12">
                                                                     <div>
-                                                                    <img alt=" "  className="circle-card-img" src="/img/crea_tu_comun idad.png"/>
+                                                                    <img alt="crea tu comunidad meetwork"  className="circle-card-img" src="/img/crea_tu_comun idad.png"/>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-md-12 h6">

@@ -105,7 +105,7 @@ const SectionSeven = porps =>{
                         
         
                          <div className="col-3 d-ms-o">
-                                                <img href=" # " alt=" " className="icon-float" src="./img/2.png"/> 
+                                                <img href=" # " alt="meetwork app" className="icon-float" src="./img/2.png"/> 
                                     </div>
                     </div>
             </div>

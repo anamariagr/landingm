@@ -28,7 +28,7 @@ const Footer = props =>{
                                     <div className="row mb-3">
                                         <div className="col-md-12 mb-3">
                                              <p className="letter-footer h5 border-botom">
-                                             <img alt=" " src="img/grup_1314.png"/>
+                                             <img alt="Meetwork app" src="img/grup_1314.png"/>
                                              </p>
                                         </div>
                                         <div className="col-md-12">

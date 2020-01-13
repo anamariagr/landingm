@@ -5,7 +5,7 @@ const SectionCowork = props =>{
         <div className="container-fluid">
             <div className="row justify-content-between">
             <div className="col-md-5 d-lg-none ">
-                     <img alt=" " className="background-cowork-mobile" src="./img/Coworking.png"/>
+                     <img alt="meetwork" className="background-cowork-mobile" src="./img/Coworking.jpg"/>
                 </div>
                 <div className="col-md-5 pt-lg-5 ml-lg-5 pl-lg-5 mt-lg-5">
                <div className="container">
@@ -15,7 +15,7 @@ const SectionCowork = props =>{
                 <p className="h5 title-color">Crea y gestiona tu comunidad</p>
                 </div>
             
-                <p className="subtitle-three pt-lg-3 pb-lg-2"> Todo las herramientas que necesitas en un solo lugar  </p>
+                <h3 className="subtitle-three pt-lg-3 pb-lg-2"> Todo las herramientas que necesitas en un solo lugar  </h3>
              
                
                     <p>
@@ -36,7 +36,7 @@ const SectionCowork = props =>{
                    </div>   
                 </div>
                 <div className="col-md-6">
-                     <img alt=" " className="background-cowork" src="./img/Coworking.png"/>
+                     <img alt="woworking meetwork" className="background-cowork" src="./img/Coworking.jpg"/>
                 </div>
                 
             </div>
